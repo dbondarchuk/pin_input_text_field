@@ -202,11 +202,11 @@ class _PinInputTextFieldState extends State<PinInputTextField> {
           /// Hide the editing text.
           color: Colors.transparent,
           // To hide the cursor when in select mode
-          fontSize: platformMiniFontSize(),
+          //fontSize: platformMiniFontSize(),
         ),
 
         /// Hide the Cursor
-        showCursor: false,
+        showCursor: true,
 
         /// Whether to correct the user input.
         autocorrect: widget.autocorrect,
