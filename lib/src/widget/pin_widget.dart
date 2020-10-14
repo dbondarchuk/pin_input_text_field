@@ -212,7 +212,7 @@ class _PinInputTextFieldState extends State<PinInputTextField> {
         autocorrect: widget.autocorrect,
 
         /// Center the input to make more natural.
-        textAlign: TextAlign.center,
+        textAlign: TextAlign.left,
 
         /// Options of the edit menu
         toolbarOptions: widget.toolbarOptions,
